@@ -43,7 +43,14 @@ export default function Layout() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-16 xl:px-24 flex justify-between items-center">
           <Link to="/" className="relative z-50 flex items-center group">
-            <img src="https://i.imgur.com/T7luw0G.png" alt="Torrez Lawn Care Logo" style={{ width: '162.656px', height: '77.9766px' }} className="object-contain" />
+            <img 
+              src="https://i.imgur.com/T7luw0G.png" 
+              alt="Torrez Lawn Care Logo" 
+              style={{ width: '162.656px', height: '77.9766px' }} 
+              className="object-contain" 
+              referrerPolicy="no-referrer"
+              fetchPriority="high"
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -139,7 +146,13 @@ export default function Layout() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 mb-32">
             <div className="lg:col-span-6">
               <div className="flex items-center mb-8">
-                <img src="https://i.imgur.com/T7luw0G.png" alt="Torrez Lawn Care Logo" className="h-24 w-auto object-contain" />
+                <img 
+                  src="https://i.imgur.com/T7luw0G.png" 
+                  alt="Torrez Lawn Care Logo" 
+                  className="h-24 w-auto object-contain" 
+                  referrerPolicy="no-referrer"
+                  loading="lazy"
+                />
               </div>
               <p className="text-paper/70 max-w-md mb-8 leading-relaxed">
                 Professional lawn care and landscaping services dedicated to making your outdoor spaces beautiful and healthy.

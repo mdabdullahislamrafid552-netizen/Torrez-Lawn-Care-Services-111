@@ -35,6 +35,7 @@ export default function About() {
                 alt="Torrez Lawn Care Team" 
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
             </div>
           </motion.div>

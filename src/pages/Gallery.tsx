@@ -52,6 +52,7 @@ export default function Gallery() {
                   alt={`Gallery image ${index + 1}`} 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
               </motion.div>
             ))}

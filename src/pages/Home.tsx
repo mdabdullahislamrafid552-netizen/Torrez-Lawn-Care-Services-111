@@ -26,6 +26,7 @@ export default function Home() {
             alt="Estate Lawn" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-black/40" />
         </motion.div>
@@ -88,6 +89,7 @@ export default function Home() {
                     alt="Torrez Lawn Care Work" 
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
                 </div>
                 {/* Decorative background element */}
@@ -150,6 +152,7 @@ export default function Home() {
                     alt={service.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
                 </div>
                 <div className="flex items-center justify-between pt-4">
@@ -177,6 +180,7 @@ export default function Home() {
                     alt={service.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
                 </div>
                 <div className="flex items-center justify-between pt-4">
